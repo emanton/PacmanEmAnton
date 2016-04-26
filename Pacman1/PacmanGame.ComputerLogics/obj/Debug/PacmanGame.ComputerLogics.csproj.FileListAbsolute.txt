@@ -1,0 +1,13 @@
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\PacmanGame.ComputerLogics.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMrefactoring\Pacman.ComputerLogics\bin\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMrefactoring\Pacman.ComputerLogics\bin\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMrefactoring\Pacman.ComputerLogics\obj\Debug\PacmanGame.ComputerLogics.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMrefactoring\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMrefactoring\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\PacmanMVVMrefactoring\PacmanGame.ComputerLogics\bin\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\PacmanMVVMrefactoring\PacmanGame.ComputerLogics\bin\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\PacmanMVVMrefactoring\PacmanGame.ComputerLogics\obj\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\PacmanMVVMrefactoring\PacmanGame.ComputerLogics\obj\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\PacmanMVVMrefactoring\PacmanGame.ComputerLogics\obj\Debug\PacmanGame.ComputerLogics.csprojResolveAssemblyReference.cache
