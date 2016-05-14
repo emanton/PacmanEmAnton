@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanGame.BLL", "PacmanGame.BLL\PacmanGame.BLL.csproj", "{F10691AA-3F73-4B9C-8DFD-D6BD30F3A0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanGame.ComputerLogics", "PacmanGame.ComputerLogics\PacmanGame.ComputerLogics.csproj", "{01262FC7-94A5-487F-85BD-EE361BA9ECA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanGame.DAL", "PacmanGame.DAL\PacmanGame.DAL.csproj", "{A61AD6E1-5583-4B59-BCF8-2E8572115A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanGame.MVVM", "PacmanGame.MVVM\PacmanGame.MVVM.csproj", "{7869596A-5171-427C-9C3E-4710BC821947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F10691AA-3F73-4B9C-8DFD-D6BD30F3A0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10691AA-3F73-4B9C-8DFD-D6BD30F3A0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10691AA-3F73-4B9C-8DFD-D6BD30F3A0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10691AA-3F73-4B9C-8DFD-D6BD30F3A0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01262FC7-94A5-487F-85BD-EE361BA9ECA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01262FC7-94A5-487F-85BD-EE361BA9ECA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01262FC7-94A5-487F-85BD-EE361BA9ECA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01262FC7-94A5-487F-85BD-EE361BA9ECA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61AD6E1-5583-4B59-BCF8-2E8572115A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61AD6E1-5583-4B59-BCF8-2E8572115A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61AD6E1-5583-4B59-BCF8-2E8572115A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61AD6E1-5583-4B59-BCF8-2E8572115A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7869596A-5171-427C-9C3E-4710BC821947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7869596A-5171-427C-9C3E-4710BC821947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7869596A-5171-427C-9C3E-4710BC821947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7869596A-5171-427C-9C3E-4710BC821947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
