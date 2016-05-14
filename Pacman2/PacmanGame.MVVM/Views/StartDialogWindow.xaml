@@ -1,0 +1,24 @@
+﻿<Window x:Class="PacmanGame.MVVM.Views.StartDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DialogWindow" Height="100" Width="300">
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20px" />
+                <RowDefinition Height="20px" />
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="userTextBlock" Foreground="Red" Text="Enter user name" />
+            <TextBox x:Name="nameTextBox" Grid.Column="1" Text="{Binding UserName}" Width="100" TextChanged="nameTextBox_TextChanged" />
+            <TextBlock x:Name="modeTextBlock" Foreground="Red" Grid.Row="1" Text="Choose game mode" />
+            <ComboBox x:Name="modeComboBox" Grid.Row="1" Grid.Column="1" Width="100" ItemsSource="{Binding LogicModes}"
+                      SelectedItem="{Binding SelectedLogic}" SelectionChanged="modeComboBox_SelectionChanged"/>
+        </Grid>
+        <Button x:Name="startButton" IsEnabled="False" Grid.Row="2" Width="100" Content="Start" Command="{Binding LoginCommand}" />
+        <ContentPresenter x:Name="DialogPresenter" Content="{Binding .}" />
+    </StackPanel>
+</Window>

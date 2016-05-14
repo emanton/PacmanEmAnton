@@ -1,0 +1,5 @@
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\bin\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\bin\Debug\Pacman.ComputerLogics.pdb
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.dll
+C:\Users\Антон\Desktop\HomeExchanging\PacmanMVVMstartWindow2\Pacman.ComputerLogics\obj\Debug\Pacman.ComputerLogics.pdb
