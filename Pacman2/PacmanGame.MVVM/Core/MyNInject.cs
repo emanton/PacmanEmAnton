@@ -17,7 +17,7 @@ namespace PacmanGame.MVVM.Core
 
         static MyNInject()
         {
-            var connection = System.Configuration.ConfigurationManager.ConnectionStrings["pacmanDbConnectionString"].ConnectionString;
+            var connection = System.Configuration.ConfigurationManager.ConnectionStrings["PacmanMVVM.Properties.Settings._123ConnectionString"].ConnectionString;
             var modules = new INinjectModule[] { new ServiceModule(connection) };
             kernel = new StandardKernel(modules);
             kernel.Bind<IUserService>().To<UserService>();
