@@ -1,0 +1,68 @@
+﻿<Window x:Class="PacmanGame.MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="600"
+        xmlns:ViewModel="clr-namespace:PacmanGame.MVVM.ViewModels"
+        xmlns:models="clr-namespace:PacmanGame.ComputerLogics.Models;assembly=Pacman.ComputerLogics">
+    <Window.DataContext>
+        <ViewModel:PacmanGameViewModel />
+    </Window.DataContext>
+    <Window.InputBindings>
+        <KeyBinding Key="Left" Command="{Binding TurnLeftCommand}" />
+        <KeyBinding Key="Up" Command="{Binding TurnUpCommand}" />
+        <KeyBinding Key="Right" Command="{Binding TurnRightCommand}" />
+        <KeyBinding Key="Down" Command="{Binding TurnDownCommand}" />
+    </Window.InputBindings>
+    <StackPanel>
+        <Button Content="ShowResults" Command="{Binding ShowResultsCommand}" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Score:" />
+            <TextBlock Text="{Binding Score}" />
+        </StackPanel>
+
+        <Button Content="New game" Command="{Binding RunGameCommand}" />
+        <Border
+            BorderThickness="15"
+            BorderBrush="Black">
+            <ItemsControl VerticalAlignment="Center" HorizontalAlignment="Center" ItemsSource="{Binding FieldPoints}">
+                <ItemsControl.Resources>
+                    <DataTemplate DataType="{x:Type models:PointXY}">
+                        <Canvas Background="Black" Width="40px" Height="40px" />
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type models:Pacman}">
+                        <Canvas Width="40px" Height="40px">
+                            <Canvas.Background>
+                                <ImageBrush ImageSource="Images/pacman.png" Stretch="Fill" />
+                            </Canvas.Background>
+                        </Canvas>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type models:Ghost}">
+                        <Canvas Width="40px" Height="40px">
+                            <Canvas.Background>
+                                <ImageBrush ImageSource="Images/ghost.png" Stretch="Fill" />
+                            </Canvas.Background>
+                        </Canvas>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type models:Yam}">
+                        <Canvas Width="40px" Height="40px" Opacity="0.3">
+                            <Canvas.Background>
+                                <ImageBrush ImageSource="Images/yam.png" Stretch="Fill" />
+                            </Canvas.Background>
+                        </Canvas>
+                    </DataTemplate>
+                </ItemsControl.Resources>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas Height="280" Width="480" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemContainerStyle>
+                    <Style TargetType="ContentPresenter">
+                        <Setter Property="Canvas.Left" Value="{Binding Path=X}" />
+                        <Setter Property="Canvas.Top" Value="{Binding Path=Y}" />
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+            </ItemsControl>
+        </Border>
+    </StackPanel>
+</Window>
